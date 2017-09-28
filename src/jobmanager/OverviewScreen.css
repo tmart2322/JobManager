@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 21, 2016, 3:21:46 PM
+    Author     : Tristan
+*/
+
+.root {
+    -fx-background-color: linear-gradient(#996300, #FFA500);
+}
+
+.bottomButton {
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-border-radius: 20;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+}
+
+.tiles {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 5;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+}
+
+.tileTitleText {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#topRow {
+    -fx-padding: 15 12 15 12;
+    -fx-background-color: BLACK;
+}
+
+#bottomRow {
+    -fx-padding: 15 12 15 12;
+    -fx-background-color: BLACK;
+    -fx-spacing: 200;
+}
+
+#titleText {
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2);
+    -fx-text-alignment: center;
+}

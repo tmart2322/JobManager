@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: linear-gradient(darkgray, black);
+}
+
+.HBox {
+    -fx-padding: 5;
+}
+
+.labelText {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#removeButton {
+    -fx-background-color: #ff8080;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#saveButton {
+    -fx-background-color: #00ff00;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#cancelButton {
+    -fx-background-color: #ffff00;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
